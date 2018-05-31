@@ -1,0 +1,5 @@
+PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+1,,1,"Astor, John Jacob",male,47,1,0,PC 17757,227.525,C62 C64,C
+2,,1,"Straus, Isidor",male,67,1,0,PC 17483,221.000,C55 C57,S
+3,0,1,"Guggenheim, Mr. Benjamin",male,46,0,0,PC 17593,79.2,B82 B84,C
+4,0,3,"Dawnson, Jack",male,19,0,0,PC 0,14.0,X,C
