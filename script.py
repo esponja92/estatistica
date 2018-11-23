@@ -77,13 +77,13 @@ data=data[[
 ]].dropna(axis=0, how='any')
 
 used_features =[
-#    "Pclass",
+    "Pclass",
     "Sex_cleaned",
 #    "Age",
-    "SibSp",
-    "Parch",
-#    "Fare",
-#    "Embarked_cleaned"
+#    "SibSp",
+#    "Parch",
+    "Fare",
+    "Embarked_cleaned"
 ]
 
 
@@ -114,6 +114,7 @@ std = np.std(x)
 variance = np.square(std)
 
 print "Media: ",mean
+print "Desvio padrão: ",std
 print "de: ",(mean-std)
 print "ate: ",mean+std
 
